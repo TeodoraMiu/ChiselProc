@@ -1,0 +1,22 @@
+DEF student1_grade1 10
+DEF student1_grade2 7
+DEF student1_grade3 8
+DEF student1_avg 0
+DEF intermediate_avg 0
+DEF counter 0 // the counter keeps track of the current grade
+JMP main
+LABEL average_func
+PUSH A
+PUSH B
+PUSH C
+MOV [counter] A // store the current grade in A register
+MOV A C
+INC C // C will point to the next grade
+MOV [C] B // store the next grade in B register
+ADD A B
+DIV A 2
+MOV A [intermediate_avg]
+POP A
+POP B
+POP C
+// To be continued

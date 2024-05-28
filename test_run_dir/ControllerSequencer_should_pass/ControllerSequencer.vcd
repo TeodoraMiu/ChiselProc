@@ -1,0 +1,170 @@
+$date
+2024-01-24T19:27+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module ControllerSequencer $end
+ $var wire 1 ! io_dataLoad $end
+ $var wire 16 " bus $end
+ $var wire 1 / clock $end
+ $var wire 1 0 io_pcInc $end
+ $var wire 1 1 io_pcEn $end
+ $var wire 1 3 reset $end
+ $var wire 1 7 memory $end
+ $var wire 1 > programCounter $end
+ $var wire 1 @ io_pcLoad $end
+ $var wire 16 E io_programCounterCounter $end
+ $var wire 1 F io_addressLoad $end
+ $var wire 1 G io_dataEn $end
+  $scope module memory $end
+   $var wire 16 $ io_addressIn $end
+   $var wire 16 % io_dataOut $end
+   $var wire 1 ' io_addressLoad $end
+   $var wire 1 ( mem_io_dataOut_MPORT_en_pipe_0 $end
+   $var wire 1 + io_dataLoad $end
+   $var wire 16 . mem $end
+   $var wire 16 8 mem_io_dataOut_MPORT_addr_pipe_0 $end
+   $var wire 16 < io_dataIn $end
+   $var wire 1 B clock $end
+    $scope module mem $end
+     $var wire 16 I MPORT $end
+      $scope module MPORT $end
+       $var wire 1 # clk $end
+       $var wire 1 & valid $end
+       $var wire 1 4 mask $end
+       $var wire 16 6 addr $end
+       $var wire 1 ; en $end
+       $var wire 1 C pipeline_valid_0 $end
+       $var wire 16 D pipeline_data_0 $end
+       $var wire 16 H data $end
+       $var wire 16 J pipeline_addr_0 $end
+      $upscope $end
+      $scope module io_dataOut_MPORT $end
+       $var wire 1 ) en $end
+       $var wire 1 , clk $end
+       $var wire 16 - data $end
+       $var wire 16 = addr $end
+      $upscope $end
+    $upscope $end
+  $upscope $end
+  $scope module programCounter $end
+   $var wire 16 * cntReg $end
+   $var wire 1 2 io_pcLoad $end
+   $var wire 1 5 reset $end
+   $var wire 16 9 io_counterIn $end
+   $var wire 1 : clock $end
+   $var wire 16 ? io_counterOut $end
+   $var wire 1 A io_pcInc $end
+  $upscope $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+00
+01
+02
+03
+b0000000000000000 %
+b0000000000000000 $
+05
+b0000000000000000 "
+07
+0:
+0;
+b0000000000000000 -
+0>
+b0000000000000000 *
+0@
+0A
+0B
+b0000000000000000 .
+0C
+0F
+0G
+b0000000000000000 9
+b0000000000000000 8
+b0000000000000000 6
+b0000000000000000 =
+b0000000000000000 <
+b0000000000000000 ?
+14
+b0000000000000000 E
+b0000000000000000 D
+b0000000000000000 I
+b0000000000000000 H
+b0000000000000000 J
+0!
+0#
+0&
+0'
+0(
+0)
+0+
+0,
+0/
+$end
+#0
+13
+15
+#1
+1B
+1#
+1:
+1,
+1/
+#6
+10
+1A
+0B
+0#
+03
+05
+0:
+0,
+0/
+#11
+1B
+1#
+b0000000000000001 E
+b0000000000000001 *
+1:
+1,
+1/
+b0000000000000001 ?
+#16
+0A
+b0000000000000001 "
+0B
+0#
+b0000000000000001 $
+1F
+1'
+b0000000000000001 H
+0,
+0/
+00
+11
+b0000000000000001 6
+b0000000000000001 9
+0:
+b0000000000000001 <
+#21
+1B
+1#
+b0000000000000001 D
+1(
+b0000000000000001 8
+1)
+1:
+b0000000000000001 J
+1,
+b0000000000000001 =
+1/
+#26
+01
+0F
+0/

@@ -1,0 +1,161 @@
+$date
+2024-01-31T14:36+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module RAM $end
+ $var wire 1 ! io_dataLoad $end
+ $var wire 8 # io_dataOut $end
+ $var wire 1 $ mem_io_dataOut_MPORT_en_pipe_0 $end
+ $var wire 16 & mem $end
+ $var wire 1 / io_addrLoad $end
+ $var wire 1 0 clock $end
+ $var wire 8 4 io_addrIn $end
+ $var wire 1 5 reset $end
+ $var wire 8 7 io_dataIn $end
+ $var wire 16 8 mem_io_dataOut_MPORT_addr_pipe_0 $end
+  $scope module mem $end
+   $var wire 16 ' MPORT $end
+    $scope module io_dataOut_MPORT $end
+     $var wire 16 " data $end
+     $var wire 1 , clk $end
+     $var wire 1 . en $end
+     $var wire 16 3 addr $end
+    $upscope $end
+    $scope module MPORT $end
+     $var wire 16 % addr $end
+     $var wire 1 ( en $end
+     $var wire 1 ) valid $end
+     $var wire 16 * pipeline_data_0 $end
+     $var wire 16 + data $end
+     $var wire 1 - mask $end
+     $var wire 1 1 pipeline_valid_0 $end
+     $var wire 16 2 pipeline_addr_0 $end
+     $var wire 1 6 clk $end
+    $upscope $end
+  $upscope $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+00
+01
+b0000000000000000 %
+05
+06
+b0000000000000000 "
+b00000000 #
+b0000000000000000 '
+b0000000000000000 &
+b0000000000000000 +
+b0000000000000000 *
+b00000000 7
+b0000000000000000 3
+b0000000000000000 2
+b0000000000000000 8
+b00000000 4
+1-
+0!
+0$
+0(
+0)
+0,
+0.
+0/
+$end
+#0
+15
+#1
+10
+16
+1,
+#6
+00
+05
+06
+0,
+1/
+#11
+10
+1$
+16
+1,
+1.
+#16
+00
+1!
+06
+b00000101 7
+1(
+1)
+b0000000000000101 +
+0,
+0/
+#21
+10
+11
+b0000000000000101 "
+b00000101 #
+0$
+16
+b0000000000000101 *
+1,
+0.
+#26
+00
+0!
+06
+b00001010 7
+0(
+0)
+b0000000000001010 +
+0,
+#31
+10
+01
+16
+b0000000000001010 *
+1,
+#36
+00
+b11111110 4
+b0000000011111110 %
+06
+0,
+1/
+#41
+10
+b0000000000000000 "
+b0000000011111110 2
+b00000000 #
+b0000000011111110 3
+1$
+16
+b0000000011111110 8
+1,
+1.
+#46
+00
+b00000000 4
+b0000000000000000 %
+06
+0,
+#51
+10
+b0000000000000101 "
+b0000000000000000 2
+b00000101 #
+b0000000000000000 3
+16
+b0000000000000000 8
+1,
+#56
+00
+06
+b00000000 7
+0,
+0/

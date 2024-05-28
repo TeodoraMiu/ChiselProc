@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/home/asus/Documents/ChiselProc/ChiselProc/src/test/scala/RAMSpec.scala:17:16: value dataLoad is not a member of chisel3.Bundle{val addrLoad: chisel3.Bool; val writeEn: chisel3.Bool; val addrIn: chisel3.UInt; val dataIn: chisel3.UInt; val dataOut: chisel3.UInt; val initDoneFlag: chisel3.Bool}[0m
+[0m[[0m[31merror[0m] [0m[0m        dut.io.dataLoad.poke(true) // dataReg will have value 5[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/asus/Documents/ChiselProc/ChiselProc/src/test/scala/RAMSpec.scala:22:16: value dataLoad is not a member of chisel3.Bundle{val addrLoad: chisel3.Bool; val writeEn: chisel3.Bool; val addrIn: chisel3.UInt; val dataIn: chisel3.UInt; val dataOut: chisel3.UInt; val initDoneFlag: chisel3.Bool}[0m
+[0m[[0m[31merror[0m] [0m[0m        dut.io.dataLoad.poke(false)[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

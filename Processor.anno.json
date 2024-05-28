@@ -1,0 +1,34 @@
+[
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.VerilogEmitter"
+  },
+  {
+    "class":"chisel3.experimental.EnumAnnotations$EnumDefAnnotation",
+    "typeName":"Processor$ProcessorState",
+    "definition":{
+      "STORE_OPERAND":4,
+      "HALT":6,
+      "EXECUTE":5,
+      "DECODE":2,
+      "FETCH":1,
+      "INC_IP":3,
+      "INIT":0
+    }
+  },
+  {
+    "class":"chisel3.experimental.EnumAnnotations$EnumComponentAnnotation",
+    "target":"Processor.Processor.currentState",
+    "enumTypeName":"Processor$ProcessorState"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"."
+  },
+  {
+    "class":"firrtl.annotations.MemoryFileInlineAnnotation",
+    "target":"~Processor|RAM>mem",
+    "filename":"program.bin",
+    "hexOrBinary":"b"
+  }
+]

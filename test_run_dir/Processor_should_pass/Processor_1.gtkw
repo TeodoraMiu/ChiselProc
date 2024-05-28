@@ -1,0 +1,31 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Sun Mar  3 20:16:23 2024
+[*]
+[dumpfile] "/home/asus/Documents/ChiselProc/ChiselProc/test_run_dir/Processor_should_pass/Processor.vcd"
+[dumpfile_mtime] "Sun Mar  3 20:15:24 2024"
+[dumpfile_size] 37321
+[savefile] "/home/asus/Documents/ChiselProc/ChiselProc/test_run_dir/Processor_should_pass/Processor_1.gtkw"
+[timestart] 504
+[size] 1850 1016
+[pos] -1 -1
+*-5.000000 711 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] Processor.
+[sst_width] 233
+[signals_width] 233
+[sst_expanded] 1
+[sst_vpaned_height] 289
+@28
+Processor.clock
+Processor.currentState[2:0]
+Processor.zeroFlag
+@22
+Processor.alu.resultReg[7:0]
+@28
+Processor.alu.zeroFlagReg
+@22
+Processor.instructionPointer.cntReg[7:0]
+@23
+Processor.instruction_opcode[7:0]
+[pattern_trace] 1
+[pattern_trace] 0
